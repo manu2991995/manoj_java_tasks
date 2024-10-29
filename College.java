@@ -1,3 +1,5 @@
+import javax.naming.Name;
+
 public class College
 {
 
@@ -45,6 +47,15 @@ public class College
         System.out.println(c2.Student_ID + " is Student ID");
         System.out.println(c2.Section_Name + " is Section name");
 
-}
+        System.out.println("-------------Praveen Kumar A Student Details----------------");
+
+        College c3 = new College("Gopalan College", "Mechanical", 13027, 'M');
+        System.out.println(c3.College_Name + " is college name");
+        System.out.println(c3.Branch_Name + " is Branch name");
+        System.out.println(c3.Student_ID + " is Student ID");
+        System.out.println(c3.Section_Name + " is Section name");
+
+
+    }
 
 }
