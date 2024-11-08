@@ -1,20 +1,16 @@
-//public class Car {
-  //  String colour, model;
-    //int year;
+public class Car {
+    String carBrand = "Thar";
+    String carColour = "Black";
+    int carModel = 2024;
 
-    //public static void main(String[] args) {
-      //  Car a1 = new Car();
-        //a1.colour="Black";
-        //a1.model="Mahindra_Thar";
-        //a1.year=2024;
+    Car(){
+    }
 
-        //System.out.println(a1.model + "-->" + a1.colour + "-->" + a1.year);
-
-
-
-
+    public static void main(String[] args) {
+        Car c1 = new Car();
+        System.out.println(c1.carBrand);
+    }
+}
 
 
 
-    //}
-//}

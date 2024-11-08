@@ -5,7 +5,7 @@ public class Caluclator {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-5
+
         // Taking user inputs
         System.out.print("Enter first number: ");
         double num1 = scanner.nextDouble();
