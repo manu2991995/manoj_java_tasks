@@ -1,33 +1,32 @@
-//import Advance_java_group_tasks_givenby_praveen
+package Advance_java_group_tasks_givenby_praveen;
 
-//parent/superclass
+
+
 class Grandfather {
     String land = "Land (Advance_java_group_tasks_givenby_praveen.Grandfather's property)";
     public void showLand(){
-
         System.out.println("Inherited property: " + land);
     }
 }
-//child or sub class
+
 class Father extends Grandfather {
     String house = "House (Advance_java_group_tasks_givenby_praveen.Father's property)";
 
     public void showHouse() {
-
         System.out.println("Advance_java_group_tasks_givenby_praveen.Father's own property: " + house);
     }
 }
-//child class
+
 class Son extends Father {
     int bankBalance = 500000;
 
-    public void showBankbalance() {
+    public void showBalance() {
         System.out.println("Advance_java_group_tasks_givenby_praveen.Son's bank balance: " + bankBalance);
 
     }
 }
 
-//child class
+
 class Grandson extends Son {
     String car = "Adavance_java_individual_tasks_givenby_praveen.Car (Advance_java_group_tasks_givenby_praveen.Grandson's property)";
 
@@ -35,7 +34,7 @@ class Grandson extends Son {
         System.out.println("Advance_java_group_tasks_givenby_praveen.Grandson's property: " + car);
     }
 }
-//child class
+
 class Greatgrandson extends Grandson {
     String gold = "Gold (Advance_java_group_tasks_givenby_praveen.Greatgrandson's property)";
 
@@ -43,7 +42,6 @@ class Greatgrandson extends Grandson {
         System.out.println("Advance_java_group_tasks_givenby_praveen.Greatgrandson's property: " + gold);
     }
 }
-
 public class Main{
 
     public static void main(String[] args) {
@@ -51,7 +49,7 @@ public class Main{
         Greatgrandson greatgrandson = new Greatgrandson();
         greatgrandson.showLand();
         greatgrandson.showHouse();
-        greatgrandson.showBankbalance();
+        greatgrandson.showBalance();
         greatgrandson.showCar();
         greatgrandson.showGold();
 
@@ -63,3 +61,10 @@ public class Main{
         System.out.println("---> :" + greatgrandson.gold);
     }
 }
+
+
+
+
+
+
+
