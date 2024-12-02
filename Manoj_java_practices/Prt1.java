@@ -1,3 +1,5 @@
+package Manoj_java_practices;
+
 public class Prt1 {
     public static void main(String[] args) {
         int a = 10;

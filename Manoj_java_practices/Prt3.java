@@ -1,3 +1,5 @@
+package Manoj_java_practices;
+
 public class Prt3 {
     public static void main(String[] args) {
 

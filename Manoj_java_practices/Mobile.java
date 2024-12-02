@@ -1,3 +1,5 @@
+package Manoj_java_practices;
+
 abstract class Mobile {
     //Both concrete method and abstract method
 

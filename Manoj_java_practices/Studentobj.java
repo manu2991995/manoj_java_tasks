@@ -1,3 +1,5 @@
+package Manoj_java_practices;
+
 public class Studentobj {
     String studentName = "manoj";
     String studentBranch = "mechanical";

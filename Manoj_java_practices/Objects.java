@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+package Manoj_java_practices;
 
 public class Objects {
     String nativePlace = "kgf";

@@ -1,3 +1,5 @@
+package Manoj_java_practices;
+
 public class Operators {
     public static void main(String[] args){
         //int a =2, b=3;

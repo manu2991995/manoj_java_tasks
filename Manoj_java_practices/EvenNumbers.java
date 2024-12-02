@@ -1,3 +1,5 @@
+package Manoj_java_practices;
+
 public class EvenNumbers {
     public static void main(String[] args) {
         System.out.println("Even numbers between 1 and 100 are :  ");

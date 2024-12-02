@@ -1,3 +1,5 @@
+package Manoj_java_practices;
+
 public class Practice11 {
       static int a = 5;
       static int b = 5;

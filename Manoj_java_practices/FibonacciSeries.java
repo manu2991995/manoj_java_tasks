@@ -1,3 +1,5 @@
+package Manoj_java_practices;
+
 import java.util.Scanner;
 
 public class FibonacciSeries {

@@ -1,3 +1,5 @@
+package Manoj_java_practices;
+
 public class Demo1 {
     String name;
     int age;

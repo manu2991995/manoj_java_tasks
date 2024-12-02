@@ -1,3 +1,5 @@
+package Manoj_java_practices;
+
 public class OddNumbers {
     public static void main(String[] args)
     {
