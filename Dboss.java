@@ -12,7 +12,7 @@ public class Dboss {
     public static void main(String[] args) {
         Dboss a = new Dboss();
         System.out.println("name of the kannada actor :" + a.actorName);
-        System.out.println("number of movies acted :" + a.numberOfMovies);
+        System.out.println("number of movies acted :" + a.yearOfBorn);
 
     }
 

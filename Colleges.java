@@ -1,5 +1,5 @@
 public class Colleges {
-    String collegeName = "gopalan";
+    String collegeName = "gjhyfjy";
     String collegeAdress = "BLR";
     int startedYear = 2010;
     int numberOfBranches = 4;
@@ -18,7 +18,7 @@ public class Colleges {
 
     public static void main(String[] args) {
         System.out.println("------- engineering college details-------");
-        Colleges c1 = new Colleges();
+        Colleges c1 = new Colleges("xyz", "ghgh", 45, 15, 56.35);
         System.out.println("name of the college= " + c1.collegeName);
         System.out.println("established in= " + c1.startedYear);
 

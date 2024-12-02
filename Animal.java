@@ -1,3 +1,4 @@
+/*
 public class Animal {
     String nameOfAnimal = "lion";
     char wildAnimal = 'Y';
@@ -27,6 +28,32 @@ public class Animal {
 
     }
 
+}
+*/
+
+
+
+
+class Animal {
+    String legs ="Animal have generally 4 legs";
+    void eat(){
+        System.out.println("This is an generic animal " + legs);
+    }
+}
+
+class Tiger extends Animal{
+    //eat is part of tiger class
+    void TigerFood(){
+        System.out.println("This is an Tiger and It will eat meat ");
+    }
+
+    public static void main(String[] args) {
+        Tiger tiger = new Tiger();
+        //Can I access the eat method of Animal by using the tiger object
+        tiger.eat();
+        tiger.TigerFood();
+
+    }
 }
 
 
